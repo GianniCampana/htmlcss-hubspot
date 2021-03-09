@@ -7,6 +7,9 @@ body {
   position: relative;
   min-width: 1200px;
 }
+header{
+    min-width: 1200px;
+}
 
 .header-containerprimo {
   background-color: rgb(227, 237, 255);
@@ -21,11 +24,12 @@ body {
   bottom: 90%;
   left: 0%;
   right: 0%;
+  min-width: 1200px;
 }
 
 .firstmenu {
-  width: 500px;
-  margin-left: 0%;
+
+  width: 300px;
   padding-top: 30px;
   margin-left: 7.5%;
   float: left;
@@ -48,8 +52,10 @@ body {
 .secondmenu {
   width: 400px;
   height: 80px;
-  margin-left: 24%;
+  margin-left: 37%;
   float: left;
+  
+  
 }
 
 .search {
@@ -98,9 +104,11 @@ body {
 }
 
 .sottomenu {
+    margin-top: 92px;
   height: 80px;
   width: 100%;
-  background-color: rgb(240, 235, 235);
+  background-color: rgb(255, 253, 253);
+  min-width: 1200px;
 }
 
 .divlogo {
@@ -128,6 +136,7 @@ ul li {
   background-image: url(img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100% 115%;
+  min-width: 1200px;
 }
 
 .titoloheader {
@@ -174,6 +183,7 @@ ul li {
   width: 100%;
   height: 2000px;
   background-color: rgb(227, 237, 255);
+  min-width: 1200px;
 }
 
 .primodivmain {
@@ -184,11 +194,12 @@ ul li {
   width: 50%;
   height: 150px;
   padding-bottom: 0%;
+  min-width: 1200px;
 }
 .cubo {
-  width: 40%;
-  height: 120%;
-  margin-left: 30%;
+  width: 25%;
+  height: 110%;
+  margin-left: 37%;
 }
 
 .titolomain,
@@ -198,7 +209,9 @@ ul li {
   font-family: "Montserrat", sans-serif;
 }
 .pmainuno {
-  font-size: 80%;
+  font-size: 100%;
+  width: 77%;
+  margin-left: 10%;
 }
 .titolomain {
   margin-top: 0%;
@@ -214,6 +227,7 @@ ul li {
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgb(107, 106, 106);
+  min-width: 1200px;
 }
 .primosecdivmain {
   width: 25%;
@@ -270,8 +284,10 @@ p {
 
 .riga {
   width: 60%;
+  height: 1px;
   margin-top: -4.5%;
   margin-left: 40%;
+  background-color: black;
   float: left;
 }
 
@@ -299,6 +315,7 @@ p {
   position: absolute;
   top: 110%;
   left: -57%;
+  min-width: 1200px;
 }
 
 .colonnauno,
@@ -311,10 +328,13 @@ p {
   height: 100%;
   box-shadow: 2px 2px 10px rgb(107, 106, 106);
 }
+.colonnauno{
+    margin-left: 2%;
+}
 .colonnadue,
 .colonnatre {
-  margin-top: 52.5px;
-  margin-left: 5%;
+  margin-top: 60px;
+  margin-left: 4%;
 }
 .colonnauno img,
 .colonnadue img,
@@ -328,10 +348,10 @@ p {
 .colonnadue p,
 .colonnatre p {
   text-align: center;
-  margin-left: 5%;
-  padding-bottom: 15%;
+  margin-left: 7%;
+  padding-bottom: 10%;
   margin-top: 25px;
-  width: 90%;
+  width: 80%;
   border-bottom: black 1px solid;
 }
 .colonnauno h3,
@@ -375,6 +395,7 @@ p {
   width: 100%;
   height: 700px;
   background-image: linear-gradient(to top right, #0abaf0 0%, #00e2b1 100%);
+  min-width: 1200px;
 }
 
 .titologriglia {
@@ -384,10 +405,11 @@ p {
   padding-top: 1%;
   width: 60%;
   margin: auto;
+  min-width: 1200px;
 }
 .titologriglia p {
-  width: 148%;
-  margin-left: -25%;
+  width: 111%;
+  margin-left: -5%;
   color: white;
 }
 .grigliaprimafila {
@@ -396,6 +418,7 @@ p {
   width: 80%;
   height: 200px;
   border-bottom: white 2px solid;
+  min-width: 1200px;
 }
 .quadrouno,
 .quadrodue,
@@ -407,6 +430,9 @@ p {
   margin-left: 0px;
   border-right: white 2px solid;
   float: left;
+}
+.piu{
+    font-size: 70%;
 }
 
 .quadrouno img {
@@ -525,6 +551,7 @@ p {
   width: 100%;
   height: 700px;
   background-color: white;
+  min-width: 1200px;
 }
 .lastdivmain .firstdiv {
   width: 15%;
@@ -539,6 +566,7 @@ p {
 }
 
 .firstdiv h1 {
+  font-size: 40px;
   margin-bottom: 15%;
 }
 .seconddiv {
@@ -573,10 +601,6 @@ p {
   margin-left: 25%;
 }
 
-.change1 {
-  height: 45px;
-}
-
 .terzodiv {
   margin-top: 0%;
   margin-left: 13%;
@@ -596,6 +620,7 @@ p {
   margin-top: 7%;
 }
 .btnduetre1 a {
+    font-size: 20px;
   text-decoration: none;
   color: white;
   border-radius: 8px;
@@ -628,8 +653,9 @@ p {
   position: absolute;
   top: 130%;
   width: 100%;
-  height: 800px;
+  height: 630px;
   background-color: rgb(0, 0, 78);
+  min-width: 1200px;
 }
 .primofooter,
 .secondofooter,
@@ -652,13 +678,13 @@ p {
 .quartofooter {
   height: 80%;
 }
-.primofooter p,
-.secondofooter p,
-.terzofooter p,
-.quartofooter p {
-  margin-top: 10%;
-  color: rgb(196, 192, 192);
-  font-family: "Montserrat", sans-serif;
+.primofooter p a,
+.secondofooter p a,
+.terzofooter p a,
+.quartofooter p a {
+    text-decoration: none;
+    color: rgb(196, 192, 192);
+    font-family: "Montserrat", sans-serif;
 }
 .linkfooter a {
   text-decoration: none;
@@ -687,14 +713,14 @@ p {
   border-bottom: 2px rgb(196, 192, 192) solid;
 }
 
-.quintodiv ul li {
+.quintodiv ul li a {
   color: rgb(196, 192, 192);
   display: inline;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
 .quintodiv ul {
-  margin-top: -13%;
+  margin-top: -2%;
   margin-left: 27%;
 }
 .lastfooter1 {
@@ -712,7 +738,7 @@ p {
   float: left;
 }
 .imglogofooter {
-  margin-top: -5%;
+  margin-top: 1%;
   width: 30%;
   height: 100%;
 }
@@ -724,15 +750,31 @@ p {
   width: 20%;
   height: 75px;
   position: absolute;
-  top: 10%;
+  top: 50%;
   left: 80%;
 }
-.last,
-.privacy {
+.last a,
+.privacy a {
   color: rgb(196, 192, 192);
+  text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  display: inline;
 }
 .privacy {
   margin-left: 10%;
 }
+.last,
+.privacy{
+    display: inline;
+}
+.primofooter a:hover,
+.secondofooter a:hover,
+.terzofooter a:hover,
+.quartofooter a:hover,
+.simboli a:hover,
+.quintodiv ul li a:hover,
+.last a:hover,
+.privacy a:hover,
+.divlistamenu ul li:hover{
+    color: rgb(5, 5, 216);
+}
+
